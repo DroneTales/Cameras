@@ -1,0 +1,30 @@
+{
+    "platform": "CameraUI",
+    "name": "CameraUI",
+    "port": 8081,
+    "atHomeSwitch": false,
+    "logLevel": "info",
+    "cameras": [
+        {
+            "name": "IPCam",
+            "manufacturer": "GK7102",
+            "model": "YCC365",
+            "serialNumber": "6-7-2-102",
+            "unbridge": true,
+            "prebuffering": true,
+            "prebufferLength": 4,
+            "hsv": true,
+            "videoConfig": {
+                "source": "-i rtsp://admin:@192.168.1.100:8001/0/av0",
+                "subSource": "-i rtsp://admin:@192.168.1.100:8001/0/av1",
+                "stillImageSource": "-i rtsp://admin:@192.168.1.100:8001/0/av1",
+                "vcodec": "copy",
+                "acodec": "aac",
+                "audio": false
+            }
+        }
+    ],
+    "options": {
+        "videoProcessor": "ffmpeg"
+    }
+}
