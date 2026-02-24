@@ -4,6 +4,29 @@
     "port": 8081,
     "atHomeSwitch": false,
     "logLevel": "info",
+    "mqtt": {
+            "active": false,
+            "tls": false,
+            "port": 1883
+        },
+    "http": {
+            "active": false,
+            "port": 7272,
+            "localhttp": false
+        },
+        "smtp": {
+            "active": false,
+            "port": 2727,
+            "space_replace": "+"
+        },
+        "ftp": {
+            "active": false,
+            "useFile": false,
+            "port": 5050
+        },
+        "ssl": {
+            "active": false
+        },
     "cameras": [
         {
             "name": "IPCam",
