@@ -1,6 +1,6 @@
 # China cameras in Apple Home. Part 2
 
-This file contains instructtions for [this](_____________) video.
+This file contains instructtions for [this](https://youtu.be/r_2EdMq5mtc) video.
 
 ## Find camera's MAC address
 
