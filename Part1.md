@@ -1,3 +1,6 @@
+# China cameras in Apple Home. Part 1
+
+This file contains instructtions for [this](https://youtu.be/Dx2-p7UPayY?si=go0yEZlLhK7kqMA9) video.
 
 ## Install Raspbian Updates
 
