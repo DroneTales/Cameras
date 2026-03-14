@@ -2,7 +2,7 @@
 
 Это инструкция к [этому](https://youtu.be/r_2EdMq5mtc) видео.
 
-Первая часть (видео)[https://youtu.be/Dx2-p7UPayY] и (описания)[./Part1.md]
+Первая часть [видео](https://youtu.be/Dx2-p7UPayY) и [описания](./Part1.md).  
 
 ## Определение MAC адреса видеокамеры
 
