@@ -1,4 +1,5 @@
-# Using simple china video-cameras with Apple HomeKit
+# Использование простых китайских видеокамер в Apple Home
 
-[Part 1](./Part1.md)  
-[Part 2](./Part2.md) 
+[Часть 1](./Part1.md)  
+[Часть 2](./Part2.md)  
+[Часть 2.1](./Part2.1.md)  

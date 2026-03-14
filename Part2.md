@@ -1,30 +1,30 @@
-# China cameras in Apple Home. Part 2
+# Китайские видеокамеры в Apple Home. Часть 2
 
-This file contains instructtions for [this](https://youtu.be/r_2EdMq5mtc) video.
+Это инструкция к [этому](https://youtu.be/r_2EdMq5mtc) видео.
 
-## Find camera's MAC address
+Первая часть (видео)[https://youtu.be/Dx2-p7UPayY] и (описания)[./Part1.md]
 
-Connect to RPi via SSH
+## Определение MAC адреса видеокамеры
+
+Подключитесь к вашей Raspberry Pi по SSH:
 
 `ssh 192.168.1.13 -I homebridge`
 
-Use `homebridge` as password.
+Введите `homebridge` в качестве пароля.
 
-Once connect use the following command to list all assigned dinamic IP addresses
+После подключения введите следующую команду для получения списка всех назначенных динамических IP адресов:
 
 `cat /var/lib/dhcp/dhcpd.leases`
 
-Check out latest assigned IP. It should be our camera's IP address. Remember or copy the hardware address of the camera,
+Проверьте последний назначенный IP адрес. Скорее всего это и будет адрес видеокамеры. Запомните или скопируйте значение **hardware address****.
 
-## Change DHCP configuration
+## Изменяем настройки DHCP сервера
 
-Now add new record to the ISC DHCP server configuration so the camera gets static IP.
-
-Open the configuration file by entering the following command
+Теперь добавьте новый запись в конфигурационный файл ISC DHCP что бы для камеры всегда выделялся статический IP. Для этого откройте конфигурационный файл введя следующую команду:
 
 `sudo nano /etc/dhcp/dhcpd.conf`
 
-And add the following line right before the `subnet 192.168.1.0`
+Добавьте следующие строки сразу **перед** `subnet 192.168.1.0`:
 
 ```
 host ipecam {  
@@ -38,23 +38,25 @@ host ipecam {
 }
 ```
 
-Test configuration
+Проверьте конфигурацию следующей командой:
 
 `sudo dhcpd -t`
 
-If no errors then restart the DHCP server
+Если ошибок нет, перезапустите DHCP сервер:
 
 `sudo systemctl restart isc-dhcp-server`
 
-Reboot the camera and make sure it is available on the specified IP address. You can use ping
+Перезагрузите видеокамеру и проверьте, что она получила выделенный IP. Используйте команду ping:
 
 `ping 192.168.1.100`
 
-## Find RTSP stream
+## Ищем RTSP поток камеры
 
-Use [this site](https://www.ispyconnect.com/camera/china) to find possible RTSP URL for your camera.
+Используйте [этот сайт](https://www.ispyconnect.com/camera/china) для поиска возможного RTSP URL для вашей камеры.
 
-## Camera UI config
+## Конфигурация Camera UI
+
+Замените **source**, **subSource** и **stillImageSource** значениями RTSP URL для вашей камеры.
 
 ```
 {
