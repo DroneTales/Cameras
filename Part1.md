@@ -2,7 +2,7 @@
 
 Здесь вы найдете инструкции [этому](https://youtu.be/Dx2-p7UPayY) видео.
 
-Вторая часть [видео](https://youtu.be/r_2EdMq5mtc) и [описания](./Part2.md)
+Вторая часть [видео](https://youtu.be/r_2EdMq5mtc) и [описания](./Part2.md).  
 
 ## Установка обновлений для Raspbian
 
