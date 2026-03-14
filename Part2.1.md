@@ -2,8 +2,8 @@
 
 В этой статье описано как добавить поддержку звука для вашей камеры в Apple Home.
 
-Первая часть (видео)[https://youtu.be/Dx2-p7UPayY] и (описания)[./Part1.md]
-Вторая часть (видео)[https://youtu.be/r_2EdMq5mtc] и (описания)[./Part2.md]
+Первая часть [видео](https://youtu.be/Dx2-p7UPayY) и [описания](./Part1.md)
+Вторая часть [видео](https://youtu.be/r_2EdMq5mtc) и [описания](./Part2.md)
 
 ## Установка aac кодека для HomeBridge
 
