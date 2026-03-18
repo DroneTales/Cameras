@@ -4,16 +4,17 @@
 
 ## Содержание
 
- 1. [Подготовка Raspberry Pi](#подготовка-raspberry-pi)  
+1. [Поддержать автора](#поддержать-автора)
+2. [Подготовка Raspberry Pi](#подготовка-raspberry-pi)  
     - [Установка обновлений для Raspbian](#установка-обновлений-дляraspbian)  
     - [Установка и настройка isc-dhcp-server](#установка-и-настройка-isc-dhcp-server)  
     - [Установка HomeBridge](#установка-homebridge)  
- 2. [Добавление камер в Apple Home](#добавление-камер-в-apple-home)  
+3. [Добавление камер в Apple Home](#добавление-камер-в-apple-home)  
     - [Определение MAC адреса видеокамеры](#определение-mac-адреса-видеокамеры)  
     - [Изменяем настройки DHCP сервера](#изменяем-настройки-dhcp-сервера)  
     - [Ищем RTSP поток камеры](#ищем-rtsp-поток-камеры)  
     - [Конфигурация Camera UI](#конфигурация-camera-ui)  
- 3. [Добавляем поддержку звука](#добавляем-поддержку-звука)  
+4. [Добавляем поддержку звука](#добавляем-поддержку-звука)  
     - [Установка aac кодека для HomeBridge](#установка-aac-кодека-для-homebridge)  
     - [Изменение конфигурации Camera UI](#изменение-конфигурации-сamera-гш)  
 
@@ -22,7 +23,17 @@
  - [Первая часть](https://youtu.be/Dx2-p7UPayY)  
  - [Вторая часть](https://youtu.be/r_2EdMq5mtc)  
  - [Третья часть](https://youtube.com/shorts/5GIIGDH4DWg)
+ 
+## Поддержать автора
 
+Если вам нравится то, что я делаю и интересны новые проекты, вы можете поддержать меня удобным для вас способом, используя следующую информацию:  
+
+**BuyMeACoffee**: https://buymeacoffee.com/dronetales  
+**Boosty**: https://boosty.to/drone_tales/donate  
+ 
+**BTC**: bitcoin:1A1WM3CJzdyEB1P9SzTbkzx38duJD6kau  
+**BCH**: bitcoincash:qre7s8cnkwx24xpzvvfmqzx6ex0ysmq5vuah42q6yz  
+**ETH**: 0xf780b3B7DbE2FC74b5F156cBBE51F67eDeAd8F9a  
 
 ## Подготовка Raspberry Pi
 
