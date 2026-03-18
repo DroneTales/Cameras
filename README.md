@@ -1,10 +1,19 @@
 Это руководство к серии видео про добавление дешевых китайских видеокамер в Apple Home с использованием HomeBridge.
 
- - [Первая часть](https://youtu.be/Dx2-p7UPayY).  
- - [Вторая часть](https://youtu.be/r_2EdMq5mtc).  
- - [Третья часть](https://youtube.com/shorts/5GIIGDH4DWg).  
+## Ссылки на видео
 
-# Китайские видеокамеры в Apple Home. Часть 1.
+ - [Первая часть](https://youtu.be/Dx2-p7UPayY)  
+ - [Вторая часть](https://youtu.be/r_2EdMq5mtc)  
+ - [Третья часть](https://youtube.com/shorts/5GIIGDH4DWg)
+
+## Содержание
+
+ 1. [Часть 1](#китайские-видеокамеры-в-apple-home.-часть-1)  
+    - [Установка обновлений для Raspbian](#установка-обновлений-дляraspbian)
+    - [Установка и настройка isc-dhcp-server](#установка-и-настройка-isc-dhcp-server)
+    - [Установка HomeBridge](#установка-homebridge)
+
+# Китайские видеокамеры в Apple Home. Часть 1
 
 В этой части мы подготовим Raspberry Pi (или другое ваше устрйоство, которое будет выступать в качестве сервера HomeBridge: компьютер, ноутбук) для установки на него HomeBridge.
 
