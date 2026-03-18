@@ -1,8 +1,8 @@
 Это руководство к серии видео про добавление дешевых китайских видеокамер в Apple Home с использованием HomeBridge.
 
--- [Первая часть](https://youtu.be/Dx2-p7UPayY).  
--- [Вторая часть](https://youtu.be/r_2EdMq5mtc).
--- [Третья часть](https://youtube.com/shorts/5GIIGDH4DWg).  
+ - [Первая часть](https://youtu.be/Dx2-p7UPayY).  
+ - [Вторая часть](https://youtu.be/r_2EdMq5mtc).  
+ - [Третья часть](https://youtube.com/shorts/5GIIGDH4DWg).  
 
 # Китайские видеокамеры в Apple Home. Часть 1.
 
